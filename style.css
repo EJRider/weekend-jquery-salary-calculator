@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+    color:white;
+    background-color: grey;
+}
+
+
+#listEmployee, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightgrey;
+}
+
