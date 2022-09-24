@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekend jQuery Slary Calculator</title>
-
     <link rel="stylesheet" href="style.css">
-
     <script src="jquery.js"></script>
     <script src="client.js"></script>
 </head>
@@ -15,19 +13,15 @@
     <h1 id="title">Salary Calculator</h1>
 </header>
 <body>
-    
-
-    <!-- <table id="addEmployee" > -->
+    <form id="addEmployee">
         <h2>Add Employee</h2>
-        <!-- <tr> -->
-            <td><input type="text" id="firstName"></td>
-            <td><input type="text" id="lastName"></td>
-            <td><input type="number" id="ID"></td>
-            <td><input type="text" id="Title"></td>
-            <td><input type="number" id="annualSalary"></td>
-        <!-- </tr>
-    </table> -->
-    <button type="submit" id="submitData">Submit</button>
+        <input type="text" id="firstName">
+        <input type="text" id="lastName">
+        <input type="number" id="iD">
+        <input type="text" id="position">
+        <input type="number" id="annualSalary">
+        <button type="submit">Submit</button>
+    </form>
     <h3>Employees</h3>
     <table id="listEmployee">
         <tr>
