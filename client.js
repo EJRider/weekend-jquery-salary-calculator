@@ -42,16 +42,27 @@ function sendData(event){
 
 function render(){
     $('#listEmployee').empty();
+    let reportedMoney = 0;
     for(let worker of workers){
         $('#listEmployee').append(`
             <tr>
-                <td>${worker.firstName}</td>
-                <td>${worker.lastName}</td>
-                <td>${worker.iD}</td>
-                <td>${worker.title}</td>
-                <td>${worker.annualSalary}</td>
+                <label for="firstN">First Name</lable>
+                <td class="firstN">${worker.firstName}</td>
+                <label for="lastN">Last Name</lable>
+                <td class="lastN">${worker.lastName}</td>
+                <label for ="idNumber">ID</label>
+                <td class="idNumber">${worker.iD}</td>
+                <label for="jobTitle">Title</lable>
+                <td class="jobTitle">${worker.title}</td>
+                <label for="annulSalary">Annual Salary</label>
+                <td for="annulSalary">${worker.annualSalary}</td>
                 <td><button class="delete" type="button">Delete</button></td>
             </tr>
+        `)
+        reportedMoney += (worker.annualSalary/1);
+        $('#totalReported').empty();
+        $('#totalReported').append(`
+            Reported total: ${reportedMoney}
         `)
     }
 }
