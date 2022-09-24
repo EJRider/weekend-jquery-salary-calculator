@@ -1,9 +1,26 @@
-# Project Name
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+
+# WEEKEND JQUERY SALARY CALCULATOR
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+_Duration: 2 Days_
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+
+This project was designed to take in data for employeers and allow them to look over a list of their employees on an individual level and see a total cost of their employees. 
+
+
+
+
+## Usage
+### Submitting an employee
+    1. Fill out all of the input sections
+    2. Press the 'submit' button
+
+ ### If the user wants to delete an employee
+    1. Press the delete button
+
+
+## Built With
+
+html, css, javascript, jquery
